@@ -1,0 +1,58 @@
+#p5vectors {
+  width: 210px;
+  height: 210px;
+  top: 3847px;
+  left: 98px;
+  gap: 0px;
+  opacity: 0px;
+
+  margin-top: 290px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px;
+}
+.circles {
+  justify-content: center;
+  align-items: center;
+
+  text-width: 99px;
+  text-height: 51px;
+  text-top: 4074.45px;
+  text-left: 143px;
+
+  opacity: 0px;
+
+  font-family: "Product Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50.95px;
+  text-align: center;
+
+  color: #353535;
+}
+
+#p5v1 {
+  margin-right: 105px;
+}
+#p5v2 {
+  margin-right: 105px;
+}
+#p5v3 {
+  margin-right: 105px;
+  width: min-content;
+}
+#p5v4 {
+  margin-right: 105px;
+}
+
+/* #p5txt {
+  width: 1193px;
+  height: 113px;
+  top: 3900px;
+  left: 137px;
+  gap: 0px;
+  opacity: 0px;
+  border: black, 1px, solid;
+} */

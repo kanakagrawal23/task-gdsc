@@ -1,0 +1,92 @@
+.icon {
+  width: 75px;
+  height: 34.64px;
+  display: flex;
+  align-items: center;
+}
+
+#txt {
+  color: #868686;
+  font-family: "Product Sans", sans-serif;
+  font-size: 21.88px;
+  font-weight: 400;
+  line-height: 26.53px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  padding: 3px;
+}
+
+nav {
+  width: 1364px;
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 300;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 38px;
+}
+
+nav ul li a {
+  color: #868686;
+  text-decoration: none;
+  font-family: "Product Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30.33px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+body.dark-mode {
+  background-color: #121212;
+}
+
+body.dark-mode #txt,
+body.dark-mode nav ul li a {
+  color: white;
+}
+
+.toggle-button {
+  width: 90px;
+  height: 36px;
+  background-color: #7a7a7a;
+  border-radius: 131.5px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.toggle-indicator {
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.sun-icon {
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.moon-icon {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  display: flex;
+  align-items: center;
+}
