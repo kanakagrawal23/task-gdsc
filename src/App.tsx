@@ -1,5 +1,5 @@
 import React from "react";
-<Part4 />;
+
 import {
   Header,
   Part1,
